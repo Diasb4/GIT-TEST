@@ -22,7 +22,7 @@ def get_user_by_id(id):  # Добавь параметр id
     user = next((u for u in users if u["id"] == id), None)
     if user:
         return jsonify(user)
-    return jsonify({"error": "User not found"}), 404
+    return jsonify({"error": "User not Found"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True)
