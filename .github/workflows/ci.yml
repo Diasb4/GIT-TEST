@@ -31,4 +31,4 @@ jobs:
       # Запустить тесты
       - name: Run tests
         run: |
-          python -m pytest  # Запустит тесты (об этом ниже)
+          python -m pytest  # Запустить тесты (об этом ниже)
